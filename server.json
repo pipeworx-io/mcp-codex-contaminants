@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/codex-contaminants",
+  "title": "Codex Contaminants",
+  "description": "Codex Alimentarius CXS 193 — maximum levels for contaminants and toxins in",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/codex-contaminants",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-codex-contaminants",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/codex-contaminants/mcp"
+    }
+  ]
+}
