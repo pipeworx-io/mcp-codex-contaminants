@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-codex-contaminants",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Codex Alimentarius CXS 193 — maximum levels for contaminants and toxins in",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-b06befa89858362d3439c76bf78e6e099d597732626c6c049ea86c4ea66f7c82",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
