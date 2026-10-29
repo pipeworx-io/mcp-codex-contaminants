@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-codex-contaminants",
-  "version": "0.1.1",
-  "description": "Codex Alimentarius CXS 193 — maximum levels for contaminants and toxins in",
+  "version": "0.2.0",
+  "description": "Codex Alimentarius CXS 193 — maximum levels for contaminants and toxins in food and feed: lead, cadmium, arsenic, methylmercury, tin, aflatoxins, ochratoxin A, patulin and others, by commodity.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-codex-contaminants": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "codex-contaminants"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-codex-contaminants.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/codex-contaminants",
   "pipeworx": {
-    "sourceHash": "v1-b06befa89858362d3439c76bf78e6e099d597732626c6c049ea86c4ea66f7c82",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "mode": "gateway",
+    "slug": "codex-contaminants",
+    "gatewaySlug": "codex-contaminants",
+    "sourceHash": "v1-3186559579b83cff067fd7d79952a8f8d277484966f75f3a2825951cd7d8ca04",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
