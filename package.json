@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-codex-contaminants",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Codex Alimentarius CXS 193 — maximum levels for contaminants and toxins in food and feed: lead, cadmium, arsenic, methylmercury, tin, aflatoxins, ochratoxin A, patulin and others, by commodity.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "codex-contaminants",
     "gatewaySlug": "codex-contaminants",
-    "sourceHash": "v1-3186559579b83cff067fd7d79952a8f8d277484966f75f3a2825951cd7d8ca04",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-b750a2201ea9b3f3325ff37f828b54d5dee065b4f0156093fc9293125092bdbf",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
